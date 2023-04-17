@@ -25,6 +25,11 @@ body {
   width: 1200px;
   margin: auto;
 }
+.container-lorem {
+  padding: 0 15px;
+  width: 1200px;
+  margin: auto;
+}
 .freespace-in-centrum-menu {
   display: flex;
   margin: 0;
@@ -367,6 +372,7 @@ h1 {
   margin: 0 auto;
   padding-left: 0px;
   gap: 30px;
+  width: 1170px;
 }
 .informations {
   color: var(--fourth-color);
@@ -379,6 +385,7 @@ h1 {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 .main-section,
@@ -590,6 +597,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-top: 94px;
+  background-color: #e5e5e5;
 }
 img {
   display: block;
@@ -625,6 +633,7 @@ img {
   width: 170px;
   height: 92px;
 }
+.customers-icon:active,
 .customers-icon:hover,
 .customers-icon:focus {
   fill: var(--secondary-color);
@@ -653,15 +662,38 @@ img {
   height: 20px;
   fill: var(--third-color);
 }
-.menu__contact-icon-mail {
+.menu-contact-icon-mail {
   display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  color: var(--fourth-color);
   fill: inherit;
 }
-.menu__contact-icon-mail:hover,
-.menu__contact-icon-mail:focus {
+.menu-contact-icon-mail:active,
+.menu-contact-icon-mail:hover,
+.menu-contact-icon-mail:focus {
   color: var(--secondary-color);
   fill: var(--secondary-color);
+}
+
+.menu__contact-icon-tel {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  color: var(--fourth-color);
+}
+.menu__contact-icon-tel:active,
+.menu__contact-icon-tel:hover,
+.menu__contact-icon-tel:focus {
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
+.services-icon {
+  width: 270px;
+  height: 120px;
+}
+.services-list-item {
+  display: flex;
+  flex-direction: column;
 }
