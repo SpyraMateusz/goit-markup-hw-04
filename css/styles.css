@@ -650,12 +650,12 @@ img {
 }
 .social-links {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 206px;
   padding-top: 20px;
   padding-bottom: 100px;
   margin-left: 70px;
+  gap: 10px;
 }
 .social-icon {
   width: 20px;
