@@ -643,6 +643,21 @@ img {
   border: 1px solid #2196f3;
   cursor: var(--first-cursor);
 }
+.customers-icon-foster {
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  padding-left: 30px;
+}
+.customers-icon-foster:active,
+.customers-icon-foster:hover,
+.customers-icon-foster:focus {
+  fill: var(--secondary-color);
+  border: 1px solid #2196f3;
+  cursor: var(--first-cursor);
+}
 .social-title {
   display: block;
   padding-left: 70px;
