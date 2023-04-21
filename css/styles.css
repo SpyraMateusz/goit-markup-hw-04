@@ -563,7 +563,6 @@ img {
   color: var(--secondary-color);
   fill: var(--secondary-color);
 }
-
 .menu__contact-icon-tel {
   width: 16px;
   height: 16px;
@@ -594,7 +593,6 @@ img {
 .customer-icon-link:focus {
   color: var(--secondary-color);
 }
-
 .section__short-padding-bottom {
   padding-bottom: 0px;
 }
@@ -605,7 +603,6 @@ img {
 
   list-style: none;
 }
-
 .article {
   max-width: 270px;
 }
@@ -629,20 +626,16 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
-
   margin-bottom: 10px;
 }
 .article__copy {
   height: 75px;
-
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   text-align: left;
-
   color: rgb(117, 117, 117);
 }
-
 .item {
   width: 168px;
   height: 90px;
@@ -788,7 +781,6 @@ img {
 .address__link--color {
   color: rgba(255, 255, 255, 0.1);
 }
-
 .address__box {
   text-decoration: none;
   height: 81px;
