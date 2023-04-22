@@ -14,37 +14,50 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="page-header">
-      <div class="freespace-in-centrum-menu container">
-        <div class="logo-headerlinks-container">
-          <div class="logo-container">
-            <a class="navigation-logo" href="./index.html"> <span>Web</span>Studio</a>
-            </div>
-            <nav class="flex">
-              <div class="header-links-container">
-              <a class="navigation-list-link-portfolio" href="#">Agencja</a>
-              <a class="navigation-list-link" href="portfolio.html">Portfolio</a>
-              <a class="navigation-list-link" href="#">Kontakt</a>
+    <header class="page-headerr containerr">
+      <div class="menu">      
+          <div class="menu__logo logo">
+            <a class="navigation-logo" href="./index.html"> <span>Web</span>Studio</a>         
           </div>
-        </div>
-      </nav>
-        <div class="header-links-contact-container">
-            <a class="mailto" href="mailto:info@devstudio.com">
-              <svg class="menu-contact-icon-mail">
-              <use href="./images/symbol-defs.svg#icon-envelope12-1">              
-              </use>
-              </svg>
-              info@devstudio.com
-            </a>
-            <a class="telephone" href="tel:+48111111111">
-              <svg class="menu__contact-icon-tel">
-                <use href="./images/symbol-defs.svg#icon-phone">
-                </use>
-                </svg>
-              +48 111 111 111
-            </a>
-      </div>
-      </div>
+          <nav class="menu__nav">
+              <ul class="menu__nav-items">
+                  <li>
+                      <a class="menu__nav-item link" href="./index.html">Agencja</a>
+                  </li>
+                  <li>
+                      <a class="menu__nav-item link" href="./portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                      <a class="menu__nav-item link" href="#">Kontakt</a>
+                  </li>
+              </ul>
+          </nav>
+      <div class="menu__contact">
+        <ul class="menu__contact-items">
+            <li>
+                <a class="menu__contact-item link" 
+                href="mailto:info@devstudio.com">
+                    <svg class="menu__contact-icon-mail " 
+                    width="16" 
+                    height="12">
+                        <use href="./images/symbol-defs.svg#icon-envelope12-1">
+                        </use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+            </li>
+            <li>
+                <a class="menu__contact-item link" href="tel:+48111111111">
+                    <svg class="menu__contact-icon-tel" width="10" height="16">
+                        <use href="./images/symbol-defs.svg#icon-phone">
+                        </use>
+                    </svg>
+                    +48 111 111 111
+                </a>
+            </li>
+        </ul>  
+</div> 
+</div>             
     </header>
     <main>
       <section class="background-color">
@@ -134,7 +147,6 @@
       <div class="gap-20-px">
       <section class="align-items-center">
         <h3 class="part-of-the-page">Czym sie zajmujemy</h3>
-      </div>
       <div>
         <ul class="presentation">
           <li>
@@ -292,7 +304,56 @@
           </ul>
         </div>
       </section>
-      <section class="our-customers">
+      <section class="section">
+        <div class="containerr">
+            <h2 class="section__header">Nasi klienci</h2>
+            <ul class="section__list client__list">
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-logo-first"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-Logo"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-Object"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-grb"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-group-3"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="linkk client__item" href="#client.html">
+                        <svg class="client__icon" width="170" height="92">
+                            <use href="./images/symbol-defs.svg#icon-company"></use>
+                        </svg>
+                    </a>   
+                </li>
+            </ul>
+        </div>
+    </section>
+      <!-- <section class="our-customers">
         <div class="container-our-customers">
           <h2 class="customers-title">Nasi klienci</h2>
           <ul class="customers">
@@ -328,7 +389,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="section__footer">
       <div class="container footer">
