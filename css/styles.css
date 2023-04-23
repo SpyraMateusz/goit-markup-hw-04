@@ -757,7 +757,7 @@ img {
   width: 16px;
   height: 16px;
   margin-right: 7px;
-  fill: inherit;
+  fill: solid #2196f3;
 }
 .menu__contact-item:hover,
 .menu__contact-item:focus,
@@ -855,7 +855,7 @@ img {
   align-items: center;
   border-radius: 4px;
   border: 1px solid var(--fourth-color);
-  fill: var(--fourth-color);
+  fill: #afb1b8;
 }
 .client__item:hover,
 .client__item:focus {
